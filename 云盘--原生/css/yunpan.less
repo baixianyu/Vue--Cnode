@@ -1,0 +1,568 @@
+a{
+    text-decoration: none;
+    color: #3b3f3e;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+button{
+    border: none;
+}
+input{
+    border: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background: #6ea7b2;
+}
+#yunp{
+    width: 1200px;
+    height: 711px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 100px auto;
+   #head{
+       height: 70px;
+       border-radius: 15px 15px 0 0;
+       h1{
+           width: 131px;
+           height: 0;
+           padding-top: 34px;
+           overflow: hidden;
+           background: url(../img/logo.png) no-repeat;
+           margin: 18px 90px 0 28px;
+       }
+       .zt{
+           font: 14px/40px "宋体";
+           color: #ffffff;
+           text-indent: 55px;
+       }
+       .chao{
+           width: 256px;
+           height: 40px;
+           margin: 15px 16px 0 0;
+           border-radius: 18px;
+           background: url(../img/chao.png)15px 10px no-repeat #ef8989;
+       }
+       .shan{
+            width: 166px;
+            height: 40px;
+            margin: 15px 16px 0 0;
+            border-radius: 18px;
+            background: url(../img/yes.png) 8px 3px no-repeat #86ce8b;
+       }
+       .xuan{
+            width: 146px;
+            height: 40px;
+            margin: 15px 16px 0 0;
+            border-radius: 18px;
+            background: url(../img/please.png) 8px 3px  no-repeat #f3a960;
+       }
+       .headrig{
+           margin: 15px;
+           width: 140px;
+           height: 40px;
+           .toux{
+               width: 69px;
+               height: 0;
+               overflow: hidden;
+               padding-top: 34px;
+               background: url(../img/head-user.png)  no-repeat,  url(../img/head-more.png) 43px 13px no-repeat;
+           }
+           .shez{
+               margin-top: 5px;
+               width: 50px;
+               height: 0;
+               overflow: hidden;
+               padding-top: 25px;
+               border-left: 1px solid #e4e5e7;
+               background: url(../img/set.png) 16px 5px no-repeat;
+           }
+       }
+   }
+   #nav{
+       width: 1200px;
+       height: 58px;
+       border-top: 1px solid #d1d9db;
+       border-bottom: 1px solid #d1d9db;
+       background-color: #edf0f7;
+       position: relative;
+       a{
+           height: 36px;
+           border: 1px solid#d1d9db;
+           margin: 10px 10px 10px 0;
+           border-radius: 5px;
+           padding: 0 18px 0 54px;
+           font: 14px/36px "宋体";
+           color: #677576;
+       }
+       .xiaz{
+           background: url(../img/download.png) 20px 10px no-repeat #ffffff;
+           margin-left: 20px;
+        }
+       .fenx{
+           background: url(../img/share.png) 20px 10px no-repeat #ffffff;
+        }
+        .yidongd{
+            background: url(../img/mobile.png) 20px 10px no-repeat #ffffff;
+        }
+        .chongmmm{
+            background: url(../img/rename.png) 20px 10px no-repeat #ffffff;
+        }
+        .shanc{
+            background: url(../img/delete.png) 20px 10px no-repeat #ffffff;
+        }
+        .xinjian{
+            background: url(../img/addfolder.png) 20px 10px no-repeat #ffffff;
+        }
+        .shuax{
+            background: url(../img/refresh.png) 10px 10px no-repeat #ffffff;
+            padding: 0 11px;
+            overflow: hidden;
+            text-indent: -9999px;
+        }
+        .sort{
+            background: url(../img/order.png) 10px 10px no-repeat #ffffff;
+            width: 36px;
+            text-indent: -9999px;
+            padding: 0;
+        }
+        .more{
+            background: url(../img/more.png) 10px 10px no-repeat,url(../img/arrowstobottom.png) 32px 10px no-repeat #ffffff;
+            padding: 0;
+            width: 56px;
+            text-indent: -9999px;
+        }
+        .moreDian{//鼠标点击过
+            background: url(../img/more.png) 10px 10px no-repeat,url(../img/arrowstobottom.png) 32px 10px no-repeat #ffffff;
+            padding: 0;
+            margin-bottom: 0;
+            width: 56px;
+            height: 47px;
+            border-color: #53aedb;
+            border-bottom: 1px solid #ffffff;
+            border-radius: 5px 5px 0 0;
+            position: relative;
+            z-index: 2;
+            text-indent: -9999px;
+        }
+        .paixTK{
+            display: none;
+            width: 130px;
+            height: 108px;
+            border: 1px solid #56acdf;
+            border-radius: 5px 0 5px 5px;
+            position: absolute;
+            right: 10px;
+            top: 58px;
+            z-index: 1;
+            .paixText{
+                width: 130px;
+                height: 36px;
+                margin: 0;
+                padding: 0;
+                border: none;
+                font: 14px/37px "宋体";
+                text-indent: 39px;
+            }
+            .paixText:hover{
+                background-color: #e1e8ee;
+            }
+            .paixSj{
+                background: url(../img/time.png) 10px 12px no-repeat;
+                border-radius: 5px 0 0 0;
+            }
+            .paixZm{
+                background: url(../img/order.png) 10px 12px no-repeat;
+            }
+            .paixXs{
+                background: url(../img/more.png) 10px 10px no-repeat;
+                border-radius: 0 0 5px 5px;
+            }
+        }
+   }
+   #bottom{
+       height: 581px;
+       position: relative;
+       #botleft{
+           width: 258px;
+           height: 571px;
+           padding-top: 10px;
+           border-right: 2px solid #e2e7eb;
+           border-radius:0 0 0 15px;
+           .gaoL{
+               background-color: #e1e8ee;
+           }
+           .botLeftTxet{
+               display: block;
+               font: 16px/34px "宋体";
+               color: #65747b;
+               text-indent: 63px;
+           }
+           .botLeftYouDianK{//有内容 点开的
+               background: url(../img/havathing.png) 20px 7px no-repeat,url(../img/infolder.png) 40px 7px no-repeat;
+           }
+           .botLeftYouMeiN{//有内容 没点开
+               background: url(../img/nothing.png) 20px 7px no-repeat,url(../img/folder.png) 40px 7px no-repeat;
+           }
+           .botLeftMeiNeiM{//没内容 没点开
+               background:url(../img/folder.png) 40px 7px no-repeat;
+           }
+           .botLeftMeiNeiD{//没内容点开了
+               background:url(../img/infolder.png) 40px 7px no-repeat;
+           }
+
+       }
+       #botrig{
+           width: 940px;
+           height: 581px;
+           background-color: #f6f7fb;
+           border-radius:0 0 15px 0;
+           .quanx{
+            width: 60px;
+            height: 48px;
+            background: url(../img/noClick.png) 15px 15px no-repeat;
+            text-indent: -9999px;
+            float: left;
+            background-color: #ffffff;
+            border-bottom: 2px solid #e2e7eb;
+            }
+            .onQuanx{
+                width: 60px;
+                height: 48px;
+                text-indent: -9999px;
+                background: url(../img/click.png) 15px 15px no-repeat;
+                float: left;
+                background-color: #ffffff;
+                border-bottom: 2px solid #e2e7eb;
+            }
+           .rigHead{
+               width: 880px;
+               height: 48px;
+               background-color: #ffffff;
+               border-bottom: 2px solid #e2e7eb;
+               float: left;
+               .yangs{
+                    padding: 0 17px;
+                    height: 48px;
+                    font: 14px/48px "宋体";
+                }
+               .rigHeadDian{
+                   //点击以后得变颜色
+                    color: #58afdc;
+                    border-bottom: 2px solid #56acdd;
+                    padding: 0 17px;
+                    height: 48px;
+                    font: 14px/48px "宋体";
+               }
+               .Rjiantou{
+                    width: 15px;
+                    height: 48px;
+                    background: url(../img/arrowsRight.png) 1px 16px no-repeat;
+               } 
+           }
+           .rigXian{
+               float: left;
+                width: 920px;
+                height: 531px;
+                border-radius: 0 0 15px 0;
+                position: relative;
+                .box{
+                    width: 0;
+                    height: 0;
+                    background-color: rgba(86, 172, 221,0.5);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                .noWenJ{
+                    background: url(../img/nowenjian.png) no-repeat;
+                    height: 500px;
+                }
+                .rigList{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 920px;
+                    
+                    .rigJiC{
+                        height: 50px;
+                        border-bottom: 1px solid #e2e7ea;
+                        .rigJiCLeft{
+                            width: 230px;
+                            .xuanZ{
+                                width: 40px;
+                                height: 50px;
+                                background: url(../img/noClick.png) 15px 15px no-repeat;
+                                text-indent: -9999px;
+                            }
+                            .rigLeftTage{
+                                width: 190px;
+                                height: 50px;
+                                background: url(../img/wenjtbxaio.png) 13px 13px no-repeat;
+                                font: 14px/50px "宋体";
+                                color: #7e8387;
+                                text-indent: 50px;
+                            }
+                        }
+                        .rigJiCont{
+                            width: 180px;
+                            height: 20px;
+                            margin: 18px 0 0 126px;
+                            a{
+                                width: 16px;
+                                height: 16px;
+                                text-indent: -9999px;
+                                margin-right: 20px;
+                            }
+                            .conXZ{
+                                background: url(../img/download.png)  no-repeat ;
+                            }
+                            .conFX{
+                                background: url(../img/share.png) no-repeat;
+                            }
+                            .conYDD{
+                                background: url(../img/mobile.png) no-repeat;
+                            }
+                            .conCMM{
+                                background: url(../img/rename.png) no-repeat;
+                            }
+                            .conSC{
+                                background: url(../img/delete.png) no-repeat;
+                            }
+                        }
+                        .rigRig{
+                            margin-top: 19px;
+                            font: 14px/14px "宋体";
+                            color: #777c80;
+                        }
+                    }
+                    .LiYIRu{
+                        background-color: #ffffff;
+                        border-color: #54afdc;
+                    }
+                    li{
+                        width: 178px;
+                        height: 178px;
+                        border-radius: 5px;
+                        background-color: #ebeff0;
+                        margin-top: 40px;
+                        margin-left: 40px;
+                        position: relative;
+                        border: 1px solid #ebeff0;
+                        p{
+                            width: 16px;
+                            height: 16px;
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                        }
+                        .gou{//左上角 div 小√的样式
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 3px;
+                            background: url(../img/click.png) no-repeat #55acd7;
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                        }
+                        .kuang{
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 3px;
+                            border: 1px solid #55acd7;
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                        }
+                        .rigImg{
+                            width: 80px;
+                            height: 80px;
+                            margin: 30px 50px 18px;
+                            border-radius: 5px;
+                            background: url(../img/bigfolder.png) 8px 8px no-repeat;
+                        }
+                        .rigText{
+                            width: 80px;
+                            margin-left: 50px;
+                            font: 14px/14px "宋体";
+                            color: #697279;
+                        }
+                        .chongM{
+                            position: absolute;
+                            left: 30px;
+                            top: 128px;    
+                            width: 118px;
+                            height: 30px;
+                            border: 1px solid #56adda;
+                            display:none;  
+                            font:  20px/30px "宋体";                 
+                        }
+                        .block{
+                            display: block;
+                        }
+                    }
+                }
+            }  
+        }
+       
+        .suDelete{
+            width: 316px;
+            height: 176px;
+            border: 2px solid #56acdd;
+            border-radius: 10px;
+            position: absolute;
+            background-color: #ffffff;
+            top: 270px;
+            left: 345px;
+            display: none;
+            z-index: 1;
+            .gbanN{
+                width: 16px;
+                height: 16px;
+                background: url(../img/close.png) no-repeat;
+                text-indent: -9999px;
+                margin: 15px 0 5px 286px;
+            }
+            .tishi{
+                width: 270px;
+                height: 60px;
+                margin-left: 20px;
+                background: url(../img/yesorno.png) 0 7px no-repeat;
+                background-size: 36px 36px;
+                .bigText{
+                    font: 18px/30px "宋体";
+                    padding-left: 50px;
+                    color: #000000;
+                }
+                .litText{
+                    font: 12px/30px "宋体";
+                    padding-left: 50px;
+                    color: #3a3a3a;
+                }
+            }
+            .qued{
+                width: 80px;
+                height: 30px;
+                margin: 24px 24px 0  70px;
+                background-color: #55addb;
+                border-radius: 3px;
+                font: 16px/30px "宋体";
+                color: #ffffff;
+                border: 1px solid  #55addb;
+            }
+            .quxiao{
+                width: 80px;
+                height: 30px;
+                font: 16px/30px "宋体";
+                color: #60b3dd;
+                border: 1px solid #56acdd;
+                background-color: #ffffff;
+                border-radius: 3px;
+            }
+        }
+        #stoLoc{
+            width: 386px;
+            padding-left: 20px;
+            height: 416px;
+            border: 2px solid #56acdd;
+            border-radius: 10px;
+            background-color: #ffffff;
+            position: absolute;
+            top: 80px;
+            right: 18px;
+            display: none;
+            z-index: 1;
+            .stoLocHead{
+                height: 55px;
+                .stoHeadText{
+                    font: 16px/55px "宋体";
+                    color: #000000;
+                }
+                .stoGuan{
+                    width: 20px;
+                    height: 20px;
+                    text-indent: -9999px;
+                    background: url(../img/close.png) no-repeat;
+                    margin: 15px 10px 0 0 ;
+                    background-size: 20px 20px;
+                }
+            }
+            .name{
+                height: 26px;
+                font: 14px/26px "宋体";
+                background: url(../img/folder.png) no-repeat;
+                color: #6b7074;
+                background-size: 24px 21px;
+                text-indent: 33px;
+            }
+            .stoCon{
+                width: 358px;
+                height: 238px;
+                border: 1px solid #e5e6e8;
+                margin-top: 14px;
+                overflow: auto;
+                .stoConText{
+                    display: block;
+                    font: 16px/34px "宋体";
+                    color: #65747b;
+                    text-indent: 63px;
+                }
+                .stoConYouMeiN{//有内容 没点开
+                    background: url(../img/infolder.png) 40px 7px no-repeat;
+                }
+                .stoConMeiNeiM{//没内容 没点开
+                    background:url(../img/folder.png) 40px 7px no-repeat;
+                }
+                .gaoL{
+                    background-color: #e1e8ee;
+                }
+            }
+            .stobot{
+                .stoQueD{
+                    width: 80px;
+                    height: 30px;
+                    margin: 24px 24px 0  95px;
+                    background-color: #55addb;
+                    border-radius: 3px;
+                    font: 16px/30px "宋体";
+                    color: #ffffff;
+                    border: 1px solid  #55addb;
+                }
+                .stoQuXiao{
+                    width: 80px;
+                    height: 30px;
+                    font: 16px/30px "宋体";
+                    color: #60b3dd;
+                    border: 1px solid #56acdd;
+                    background-color: #ffffff;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+#zhezhao{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(8, 18, 24, 0.692);
+    width: 100%;
+    height: 100%;
+    display:none;
+}
